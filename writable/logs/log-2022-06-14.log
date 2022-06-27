@@ -1,0 +1,39 @@
+ERROR - 2022-06-14 03:17:02 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to ssl://smtp.gmail.com:25 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)
+ERROR - 2022-06-14 03:19:11 --> Email: sendWithSmtp throwed fsockopen(): Unable to connect to ssl://smtp.gmail.com:25 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)
+ERROR - 2022-06-14 03:42:42 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+CRITICAL - 2022-06-14 08:36:48 --> Call to undefined function reCaptcha2()
+#0 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\View\View.php(230): include()
+#1 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\Common.php(1250): CodeIgniter\View\View->render('Auth\\Views\\logi...', Array, true)
+#3 C:\Users\ACER\OneDrive\Documents\Programming\siakad\app\ThirdParty\Auth\Controllers\LoginController.php(46): view('Auth\\Views\\logi...', Array)
+#4 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\CodeIgniter.php(931): Auth\Controllers\LoginController->login()
+#5 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(Auth\Controllers\LoginController))
+#6 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ACER\OneDrive\Documents\Programming\siakad\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ACER\\O...')
+#9 {main}
+CRITICAL - 2022-06-14 09:10:04 --> Class "App\Models\Admin\MetaModel" not found
+#0 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\CodeIgniter.php(903): App\Controllers\Mhs\Home->__construct()
+#1 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ACER\OneDrive\Documents\Programming\siakad\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ACER\\O...')
+#5 {main}
+CRITICAL - 2022-06-14 09:10:48 --> Class "App\Models\Admin\MetaModel" not found
+#0 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\CodeIgniter.php(903): App\Controllers\Mhs\Home->__construct()
+#1 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ACER\OneDrive\Documents\Programming\siakad\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ACER\\O...')
+#5 {main}
+CRITICAL - 2022-06-14 09:11:21 --> Invalid file: view_admin/vi_dashboard.php
+#0 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_admin/vi_d...')
+#1 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\Common.php(1250): CodeIgniter\View\View->render('view_admin/vi_d...', Array, true)
+#2 C:\Users\ACER\OneDrive\Documents\Programming\siakad\app\Controllers\Mhs\Home.php(50): view('view_admin/vi_d...', Array)
+#3 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\CodeIgniter.php(931): App\Controllers\Mhs\Home->index()
+#4 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mhs\Home))
+#5 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ACER\OneDrive\Documents\Programming\siakad\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ACER\OneDrive\Documents\Programming\siakad\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ACER\\O...')
+#8 {main}
